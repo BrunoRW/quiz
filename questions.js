@@ -8,7 +8,7 @@ const questions = [
     {
         title: "",
         quest: "",
-        answ: ["1"],
+        answ: [],
         points: pp
     }    
 ]
