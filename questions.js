@@ -8,6 +8,6 @@ const questions = [
     {
         title: "",
         quest: "",
-        points: pp,
+        points: pp
     }    
 ]
