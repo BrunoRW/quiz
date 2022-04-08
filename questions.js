@@ -6,9 +6,8 @@ const bp = 2;
 // questions
 const questions = [
     {
-        title: "",
         quest: "",
         answ: [],
         points: pp
-    }    
+    }
 ]
