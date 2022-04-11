@@ -29,6 +29,13 @@ body{
     align-items: center;
     justify-content: center;
 }
+img{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 40px;
+    opacity: 0.6;
+}
 #container{
     background: var(--sec);
     width: 100%;
