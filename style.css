@@ -1,133 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 
-        *{
-            margin: 0;
-            padding: 0;
-            outline: none;
-            text-decoration: none;
-            border: none;
-            font-family: 'Karla',sans-serif;
-            scroll-behavior: smooth;
-        }
-        :root{
-            --def: #131313;
-            --sec: #1b1b1e;
-            --trd: #1e1e22;
-            --qrt: #202025;
-            --qnt: #282830;
-            --sex: #343440;
-            --color: #c7c7c7;
-            --color2: #7c7c7c;
-            --color3: #ffffff;
-            --cc: #262d4b;
-        }
-        body{
-            background: var(--def);
-            min-height: calc(100vh - 10px);
-            padding: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        #container{
-            background: var(--sec);
-            width: 100%;
-            max-width: 800px;
-            min-height: 150px;
-            height: fit-content;
-            border-radius: 8px;
-            overflow: hidden;
-            border-bottom: 1px solid var(--cc);
-        }
-        #title{
-            color: var(--color);
-            padding: 12px 10px;
-            text-align: center;
-            font-size: 20px;
-            background: var(--trd);
-        }
-        .mid-turn{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 20px;
-        }
-        .quest-turn{
-            margin-top: 50px;
-        }
-        #name{
-            width: calc(100% - 14px);
-            max-width: 500px;
-            margin: 20px 5px;
-            padding: 5px;
-            background: transparent;
-            border-bottom: 2px solid var(--qrt);
-            font-size: 18px;
-            color: var(--color);
-            border-radius: 3px;
-            transition: all .3s;
-        }
-        .bt{
-            width: 100px;
-            padding: 5px;
-            font-size: 18px;
-            color: var(--color);
-            background: var(--trd);
-            border-bottom: 2px solid var(--qrt);
-            cursor: pointer;
-            transition: all .3s;
-            border-radius: 2px;
-        }
-        #name:focus, #name:hover, .bt:hover, .bt:focus{
-            border-bottom: 2px solid var(--cc);
-        } 
-        .answ{
-            width: calc(100% - 20px);
-            padding: 12px 10px;
-            color: var(--color);
-            font-size: 18px;
-            background: var(--sec);
-            border-bottom: 1px solid var(--qrt);
-            cursor: pointer;
-            transition: all .3s;
-        }
-        .selected{
-            background-color: var(--trd);
-            border-bottom: 1px solid var(--cc);
-        }
-        .sel-sp{
-            color: var(--color3)!important;
-        }
-        .span-l{
-            margin: 0 10px;
-            font-weight: bolder;
-            /* color: var(--color2); */
-        }
-        .bt-out{
-            text-align: right;
-            margin: 20px;
-        }
-        .score{
-            text-align: center;
-            color: var(--color2);
-            margin: 10px;
-            font-size: 20px;
-        }
-        .answersAll {
-            width: 100%;
-            max-width: 300px;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 20px auto;
-        }
-        .ans{
-            margin: 5px;
-            width: calc((100%/3) - 10px);
-            text-align: center;
-        }
-        .correct{
-            color: #61aa61;
-        }
-        .wrong{
-            color: #ff6868;
-        }
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    font-family: 'Karla',sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --def: #131313;
+    --sec: #1b1b1e;
+    --trd: #1e1e22;
+    --qrt: #202025;
+    --qnt: #282830;
+    --sex: #343440;
+    --color: #c7c7c7;
+    --color2: #7c7c7c;
+    --color3: #ffffff;
+    --cc: #262d4b;
+}
+body{
+    background: var(--def);
+    min-height: calc(100vh - 10px);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: var(--sec);
+    width: 100%;
+    max-width: 800px;
+    min-height: 150px;
+    height: fit-content;
+    border-radius: 8px;
+    overflow: hidden;
+    border-bottom: 1px solid var(--cc);
+}
+#title{
+    color: var(--color);
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--trd);
+}
+.mid-turn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.quest-turn{
+    margin-top: 50px;
+}
+#name{
+    width: calc(100% - 14px);
+    max-width: 500px;
+    margin: 20px 5px;
+    padding: 5px;
+    background: transparent;
+    border-bottom: 2px solid var(--qrt);
+    font-size: 18px;
+    color: var(--color);
+    border-radius: 3px;
+    transition: all .3s;
+}
+.bt{
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    color: var(--color);
+    background: var(--trd);
+    border-bottom: 2px solid var(--qrt);
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 2px;
+}
+#name:focus, #name:hover, .bt:hover, .bt:focus{
+    border-bottom: 2px solid var(--cc);
+} 
+.answ{
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    color: var(--color);
+    font-size: 18px;
+    background: var(--sec);
+    border-bottom: 1px solid var(--qrt);
+    cursor: pointer;
+    transition: all .3s;
+}
+.selected{
+    background-color: var(--trd);
+    border-bottom: 1px solid var(--cc);
+}
+.sel-sp{
+    color: var(--color3)!important;
+}
+.span-l{
+    margin: 0 10px;
+    font-weight: bolder;
+    /* color: var(--color2); */
+}
+.bt-out{
+    text-align: right;
+    margin: 20px;
+}
+.score{
+    text-align: center;
+    color: var(--color2);
+    margin: 10px;
+    font-size: 20px;
+}
+.answersAll {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.ans{
+    margin: 5px;
+    width: calc((100%/3) - 10px);
+    text-align: center;
+}
+.correct{
+    color: #61aa61;
+}
+.wrong{
+    color: #ff6868;
+}
