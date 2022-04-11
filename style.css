@@ -89,7 +89,7 @@ body{
     background: var(--sec);
     border-bottom: 1px solid var(--qrt);
     cursor: pointer;
-    transition: all .3s;
+    transition: all .1s;
 }
 .selected{
     background-color: var(--qrt);
