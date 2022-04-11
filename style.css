@@ -79,7 +79,7 @@ body{
     border-radius: 2px;
 }
 #name:focus, #name:hover, .bt:hover, .bt:focus{
-    border-bottom: 2px solid var(--cc);
+    border-bottom: 2px solid var(--qnt);
 } 
 .answ{
     width: calc(100% - 20px);
