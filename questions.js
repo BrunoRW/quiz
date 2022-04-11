@@ -1,7 +1,7 @@
 // questions
 let questions = [
     {
-        title: "How to get an element by ID with JS?",
+        title: "How to get an element by ID?",
         answ: [
             "document.getElementById('id')",
             "document.querySelectorAll('.id')", 
@@ -9,7 +9,7 @@ let questions = [
         ]
     },
     {
-        title: "What is the correct way to create an array with JS?",
+        title: "What is the correct way to create an array?",
         answ: [
             "let arr = [];",
             "let arr = {};",
@@ -17,7 +17,7 @@ let questions = [
         ]
     },
     {
-        title: "What is the most used way to show a message in the console with JS?",
+        title: "What is the most used way to show a message in the console?",
         answ: [
             "console.log()",
             "print()", 
@@ -33,7 +33,7 @@ let questions = [
         ]
     },
     {
-        title: "How to know the number of letters that a variable of type 'String' has in JS?",
+        title: "How to know the number of letters that a variable of type 'String'?",
         answ: [
             "variable.length",
             "variable.letters",
@@ -47,7 +47,14 @@ let questions = [
             "let bol = 'false'",
             "let bol = 55"
         ]
-    }
+    },
+    {
+        title: "How to maka a loop?",
+        answ: [
+            "for(i=0;i<5;i++){}",
+            "loop(i=0;i<5;i++){};"
+        ]
+    },
 ]
 
 // randomize array with lodash
