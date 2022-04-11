@@ -19,6 +19,7 @@
             --color: #c7c7c7;
             --color2: #7c7c7c;
             --color3: #ffffff;
+            --cc: #262d4b;
         }
         body{
             background: var(--def);
@@ -36,6 +37,7 @@
             height: fit-content;
             border-radius: 8px;
             overflow: hidden;
+            border-bottom: 1px solid var(--cc);
         }
         #title{
             color: var(--color);
@@ -77,7 +79,7 @@
             border-radius: 2px;
         }
         #name:focus, #name:hover, .bt:hover, .bt:focus{
-            border-bottom: 2px solid var(--qnt);
+            border-bottom: 2px solid var(--cc);
         } 
         .answ{
             width: calc(100% - 20px);
@@ -85,13 +87,13 @@
             color: var(--color);
             font-size: 18px;
             background: var(--sec);
-            border-bottom: 2px solid var(--qrt);
+            border-bottom: 1px solid var(--qrt);
             cursor: pointer;
             transition: all .3s;
         }
         .selected{
             background-color: var(--trd);
-            border-bottom: 2px solid var(--qnt);
+            border-bottom: 1px solid var(--cc);
         }
         .sel-sp{
             color: var(--color3)!important;
