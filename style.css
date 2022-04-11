@@ -92,7 +92,7 @@ body{
     transition: all .3s;
 }
 .selected{
-    background-color: var(--trd);
+    background-color: var(--qrt);
     border-bottom: 1px solid var(--cc);
 }
 .sel-sp{
