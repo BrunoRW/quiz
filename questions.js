@@ -39,6 +39,14 @@ let questions = [
             "variable.letters",
             "variable.getNumLetters"
         ]
+    },
+    {
+        title: "What is the type of boolean variable?",
+        answ: [
+            "let bol = true",
+            "let bol = 'false'",
+            "let bol = 55"
+        ]
     }
 ]
 
