@@ -55,7 +55,7 @@ let questions = [
             "loop(i=0;i<5;i++){};"
         ]
     },
-]
+] 
 
 // randomize array with lodash
 questions = _.shuffle(questions);
